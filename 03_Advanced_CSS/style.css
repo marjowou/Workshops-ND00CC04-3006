@@ -63,3 +63,14 @@ table {
     input[type="submit"]:hover {
       background-color: #45a049;
     }
+   .transition-button {
+        background-color: lightblue;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      
+      .transition-button:hover {
+        background-color: lightcoral;
+      }
