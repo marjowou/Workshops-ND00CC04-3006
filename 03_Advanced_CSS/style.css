@@ -64,7 +64,7 @@ table {
       background-color: #45a049;
     }
    .transition-button {
-        background-color: lightblue;
+        background-color: rgb(98, 20, 134);
         padding: 10px 20px;
         border: none;
         cursor: pointer;
@@ -72,5 +72,5 @@ table {
       }
       
       .transition-button:hover {
-        background-color: lightcoral;
+        background-color: rgb(151, 97, 127);
       }
