@@ -23,3 +23,9 @@ footer {
     color: white;
     text-align: center;
 }
+
+.vakio-kuva {
+    height: 200px;      /* sama korkeus kaikille */
+    object-fit: cover;  /* rajaa kuvan nätisti */
+}
+
