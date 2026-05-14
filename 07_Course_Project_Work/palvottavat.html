@@ -11,6 +11,44 @@
   
     <link rel="stylesheet" href="css/styles.css">
 </head>
+
+
+window.onscroll = function() {
+  if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+};
+
+
+function scrollToTop() {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+<button onclick="scrollToTop()" id="topBtn" title="Takaisin ylös">
+  ↑
+</button>
+
+<script>
+let mybutton = document.getElementById("topBtn");
+
+window.onscroll = function() {
+  if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+};
+
+function scrollToTop() {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+</script>
+
+</body>
+</html>
+
+
 <body>
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -117,5 +155,8 @@
 
   </div>
 </div>
+<button onclick="scrollToTop()" id="topBtn" title="Takaisin ylös">
+  ↑
+</button>
 </body>
 </html>
