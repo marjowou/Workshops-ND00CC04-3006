@@ -25,30 +25,9 @@ footer {
 }
 
 
-/* Kuvien koko */
 .kissa-kuva {
-    height: 220px;
-    object-fit: cover;
+    width: 100%;        /* täyttää kortin leveyden */
+    height: 220px;      /* kaikki saman korkuisia */
+    object-fit: cover;  /* EI venytä, rajaa siististi */
 }
-
-/* Kortin hover-efekti */
-.kissa-kortti {
-    transition: transform 0.3s, box-shadow 0.3s;
-    border-radius: 15px;
-    overflow: hidden;
-}
-
-/* Hover */
-.kissa-kortti:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
-}
-
-/* Kuvan zoom hoverissa */
-.kissa-kortti img {
-    transition: transform 0.3s;
-}
-
-.kissa-kortti:hover img {
-    transform: scale(1.05);
-}
+``
